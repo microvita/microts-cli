@@ -1,6 +1,6 @@
-### Initial Documentation
+### MicroTS CLI Documentation
 
-    micro -v
-    micro i
+> micro -v
+> micro i
 
-    ![Terminal Interface CLI](./interface.png)
+![CLI Interface](./interface.png)
