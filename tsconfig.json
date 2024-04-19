@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "ESNext",
+      "lib": ["ESNext"],
+      "strict": true,
+      "rootDir": "src",
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "bin",
+      "baseUrl": ".",
+      "paths": {
+        "*": ["node_modules/*", "src/types/*"]
+      },
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true
+    },
+    "include": ["src/**/*"]
+  }
+  
