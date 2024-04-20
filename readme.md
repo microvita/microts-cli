@@ -1,10 +1,11 @@
 ### MicroTS CLI Documentation
-
-> micro -v
-> 
-> micro i
+>npm i -g @microvita/microts-cli
 >
-> micro init
+> micro -v (For CLI Version)
+> 
+> micro i (For System Information)
+>
+> micro init (For generating project)
 >
 
 ![CLI Interface](./interface.png)
