@@ -1,6 +1,3 @@
 node_modules
-
-#Build Folder
-bin
 # Package Manager
 yarn.lock

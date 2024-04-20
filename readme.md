@@ -3,5 +3,8 @@
 > micro -v
 > 
 > micro i
+>
+> micro init
+>
 
 ![CLI Interface](./interface.png)
