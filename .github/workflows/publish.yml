@@ -1,23 +1,19 @@
-name: "Publish to NPM"
+name: "publish package to npm"
 
-on: 
-  release:
-    types: [created]
+on: push
 
 jobs:
-  build: 
+  publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: checkout
         uses: actions/checkout@v2
-      - name: Setup Node
+      - name: node
         uses: actions/setup-node@v2
         with:
-          node-version: '20.12.2'
-          registry-url: 'https://registry.npmjs.org'
-      - name: Install dependencies and build
-        run: npm ci && npm run build
-      - name: Publish package on NPM
-        run: npm publish
+          node-version: 20
+          registry-url: https://registry.npmjs.org
+      - name: publish
+        run: npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
