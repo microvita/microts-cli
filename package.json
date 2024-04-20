@@ -4,7 +4,7 @@
   "description": "Micro TS Node CLI",
   "main": "bin/index.js",
   "bin": {
-    "micro": "./bin/index.js"
+    "micro": "bin/index.js"
   },
   "scripts": {
     "build": "tsc && cp package.json bin/",
@@ -34,7 +34,7 @@
     "Micro Vita"
   ],
   "repository": {
-    "url": "https://github.com/microlinux-tech/microts-cli.git",
+    "url": "git+https://github.com/microlinux-tech/microts-cli.git",
     "homepage": "https://github.com/microlinux-tech/microts-cli.git#readme"
   }
 }
