@@ -1,6 +1,6 @@
 {
   "name": "@microvita/microts-cli",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Micro TS Node CLI",
   "main": "bin/index.js",
   "bin": {
